@@ -1,4 +1,4 @@
-# Education-specific differences in time trends of age-stratified back pain data of US adults from 1997 to 2018
+# Education-specific Differences in Time Trends of Age-stratified Back Pain Data of US Adults from 1997 to 2018
 
 ## Overview
 
