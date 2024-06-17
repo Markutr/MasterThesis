@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1718621236 "main.aux" "main.bbl" "main" 1718622079
+["bibtex main"] 1718621236 "main.aux" "main.bbl" "main" 1718622991
   "./dcuurl.bst" 1718405021 29539 e7d4d2918799f559f9c490b67ba747e9 ""
-  "main.aux" 1718621928 62717 b08b3a53c9a9127ca4d76c95182c5723 "pdflatex"
+  "main.aux" 1718622990 62717 b08b3a53c9a9127ca4d76c95182c5723 "pdflatex"
   "references.bib" 1718613728 35324 7a29afb6eda22f94735be0b856de2103 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1718621925 "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex" "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf" "main" 1718622079
+["pdflatex"] 1718622985 "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex" "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf" "main" 1718622991
   "./Figures/Lexis.pdf" 1717966121 22276 054961dae513c2e39e99bbb43ed2c4d3 ""
   "./Figures/model_selection.tex" 1718571075 1259 365fb03af3ca38be56e11d34d988ec61 ""
   "./Figures/model_selection_survey.tex" 1718578082 1269 ba93a3a643f41810507d25fe4c8940fe ""
@@ -26,7 +26,7 @@
   "./Sections/abstract_no.tex" 1718404777 1922 1612d4741c5bf7ef1a6a46e6effca8e2 ""
   "./Sections/preface.tex" 1718404794 1217 3997681f703b677d4f183636d7df2244 ""
   "./figures/tikz_anti.tex" 1718404917 1220 4d5237a7952df647f7cfd4420bef44fe ""
-  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux" 1718621928 62717 b08b3a53c9a9127ca4d76c95182c5723 ""
+  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux" 1718622990 62717 b08b3a53c9a9127ca4d76c95182c5723 ""
   "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex" 1718613259 5925 c876c12bb2bc6ed3b4e57f3c6cb027bb ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -331,19 +331,19 @@
   "Sections/Appendix Theory.tex" 1718404789 4082 bbc5e2d89e271d043c4d661735ae0570 ""
   "Sections/abstract_en.tex" 1718614629 1857 14de71702811dd076af63deaa1c30df8 ""
   "Sections/abstract_no.tex" 1718404777 1922 1612d4741c5bf7ef1a6a46e6effca8e2 ""
-  "Sections/forside.tex" 1718404792 1353 d38634f6a6d6ed94d993427191a279f0 ""
+  "Sections/forside.tex" 1718622985 1353 0004f2bb1c4b5bf99b58e31c2638d976 ""
   "Sections/preface.tex" 1718404794 1217 3997681f703b677d4f183636d7df2244 ""
   "figures/tikz_anti.tex" 1718404917 1220 4d5237a7952df647f7cfd4420bef44fe ""
-  "main.aux" 1718621928 62717 b08b3a53c9a9127ca4d76c95182c5723 "pdflatex"
+  "main.aux" 1718622990 62717 b08b3a53c9a9127ca4d76c95182c5723 "pdflatex"
   "main.bbl" 1718621236 21641 55c1567aebe8bbd73acf051fe106265c "bibtex main"
-  "main.out" 1718621928 3992 d5781a176516ed4579bf207b6989b6cd "pdflatex"
+  "main.out" 1718622990 3992 d5781a176516ed4579bf207b6989b6cd "pdflatex"
   "main.tex" 1718613259 5925 c876c12bb2bc6ed3b4e57f3c6cb027bb ""
-  "main.toc" 1718621928 5030 cec8cc8fa22c19e86b202419bf4a4539 "pdflatex"
+  "main.toc" 1718622990 5030 cec8cc8fa22c19e86b202419bf4a4539 "pdflatex"
   (generated)
   "main.aux"
-  "main.out"
-  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.log"
-  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf"
-  "main.log"
   "main.toc"
   "main.pdf"
+  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.log"
+  "main.out"
+  "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf"
+  "main.log"
