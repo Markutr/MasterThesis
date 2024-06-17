@@ -1,9 +1,9 @@
-PWD /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX
+PWD /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.tex
-OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.log
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex
+OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
@@ -256,9 +256,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux
-OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux
+OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -271,41 +271,41 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecit1095.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecst1095.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectc1095.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Sections/forside.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Sections/forside.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/NTNU-Bred.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/NTNU-Bred.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/NTNU-Bred.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Sections/forside.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Sections/forside.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/NTNU-Bred.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/NTNU-Bred.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/NTNU-Bred.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_en.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_en.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_en.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_en.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecsl1095.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_no.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_no.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/preface.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/preface.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_no.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_no.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/preface.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/preface.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.toc
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.toc
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.toc
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.toc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -327,72 +327,72 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.toc
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/1 Introduction.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/1 Introduction.tex
+OUTPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.toc
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/1 Introduction.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/1 Introduction.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/2 Survey data in American households.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/2 Survey data in American households.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/2 Survey data in American households.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/2 Survey data in American households.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/numbers.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/numbers.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/numbers.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/proportions.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/proportions.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/proportions.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/3 Age-period-Cohort models.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/3 Age-period-Cohort models.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/Lexis.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/Lexis.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/Lexis.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/numbers.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/numbers.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/numbers.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/proportions.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/proportions.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/proportions.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/3 Age-period-Cohort models.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/3 Age-period-Cohort models.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/Lexis.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/Lexis.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/Lexis.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/4 Bayesian inference.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/4 Bayesian inference.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/5 Application 1.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/5 Application 1.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/Tree_some_annot.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/Tree_some_annot.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/Tree_some_annot.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_EK.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_EK.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/4 Bayesian inference.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/4 Bayesian inference.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/5 Application 1.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/5 Application 1.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/Tree_some_annot.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/Tree_some_annot.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/Tree_some_annot.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_EK.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_EK.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./figures/tikz_anti.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./figures/tikz_anti.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_dir.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_dir.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/prior_V.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/prior_V.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/prior_V.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./figures/tikz_anti.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./figures/tikz_anti.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_dir.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_dir.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/prior_V.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/prior_V.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/prior_V.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -403,17 +403,17 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_dir4.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_dir4.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_dir4.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest_anti.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest_anti.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest_anti.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_dir4.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_dir4.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_dir4.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest_anti.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest_anti.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest_anti.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
@@ -422,148 +422,148 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/6 Application 2.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/6 Application 2.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection_survey.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection_survey.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m_survey.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/7 Conclusion.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/7 Conclusion.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.bbl
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.bbl
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix Theory.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix Theory.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix A1.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix A1.tex
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_age_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_cohort_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_m.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/6 Application 2.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/6 Application 2.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection_survey.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection_survey.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m_survey.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/7 Conclusion.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/7 Conclusion.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.bbl
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.bbl
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix Theory.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix Theory.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix A1.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix A1.tex
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_age_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_cohort_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_m.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_m.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s0_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s1_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s2_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s3_f.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
-INPUT /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_age.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s0_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s1_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s2_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s3_f.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
+INPUT /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

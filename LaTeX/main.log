@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.24)  17 JUN 2024 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.24)  17 JUN 2024 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.tex
-(/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.tex
+**"/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex"
+(/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -640,7 +640,7 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count315
 \l__pdf_internal_box=\box66
-) (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux)
+) (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
@@ -732,7 +732,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 103.
 LaTeX Info: Redefining \pageref on input line 103.
 LaTeX Info: Redefining \nameref on input line 103.
- (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out) (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.out)
+ (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out) (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -871,7 +871,7 @@ LaTeX Font Warning: Font shape `T1/cmtt/bx/ui' undefined
 LaTeX Font Warning: Font shape `T1/cmtt/m/In' undefined
 (Font)              using `T1/cmtt/m/n' instead on input line 103.
 
-(/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Sections/forside.tex
+(/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Sections/forside.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: b5paper
@@ -932,13 +932,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
 [1
 
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/NTNU-Bred.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/NTNU-Bred.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.37 \myemptypage
                   %empty page such that the abstract starts at the first rig... [1
 
-]) (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_en.tex
+]) (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_en.tex
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 1.
@@ -951,11 +951,11 @@ l.124 \cleardoublepage
 
 ] [2
 
-] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/abstract_no.tex) [3] [4
+] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/abstract_no.tex) [3] [4
 
-] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/preface.tex) [5] [6
+] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/preface.tex) [5] [6
 
-] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.toc
+] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -967,7 +967,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [8] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/1 Introduction.tex
+ [8] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/1 Introduction.tex
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <15> not available
 (Font)              size <14.4> substituted on input line 1.
@@ -986,7 +986,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4] [5]) [6] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/2 Survey data in American households.tex [7]
+ [4] [5]) [6] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/2 Survey data in American households.tex [7]
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
  [8]
@@ -1015,7 +1015,7 @@ Package pdftex.def Info: Figures/number_prop_legend_m.pdf  used on input line 50
 
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
- [10] [11 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/numbers.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/number_prop_legend_m.pdf>] [12 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/proportions.pdf>]
+ [10] [11 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/numbers.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/number_prop_legend_m.pdf>] [12 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/proportions.pdf>]
 <Figures/rateplot_age_f.pdf, id=545, 867.24pt x 722.7pt>
 File: Figures/rateplot_age_f.pdf Graphic file (type pdf)
 <use Figures/rateplot_age_f.pdf>
@@ -1082,7 +1082,7 @@ Underfull \vbox (badness 1043) has occurred while \output is active []
  [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_f.pdf>]) [15 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_age_legend_m.pdf>] [16 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_f.pdf>] [17 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rateplot_cohort_legend_m.pdf>] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/3 Age-period-Cohort models.tex
+ [14 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_f.pdf>]) [15 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_age_legend_m.pdf>] [16 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_f.pdf>] [17 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rateplot_cohort_legend_m.pdf>] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/3 Age-period-Cohort models.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18
@@ -1090,7 +1090,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-pdfTeX warning: pdflatex (file /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/Lexis.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file /Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/Lexis.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <./Figures/Lexis.pdf, id=673, 648.02098pt x 505.89pt>
 File: ./Figures/Lexis.pdf Graphic file (type pdf)
 <use ./Figures/Lexis.pdf>
@@ -1099,7 +1099,7 @@ Package pdftex.def Info: ./Figures/Lexis.pdf  used on input line 12.
 [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/Lexis.pdf>] [21] [22]
+ [20 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/Lexis.pdf>] [21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
@@ -1116,7 +1116,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]) [29] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/4 Bayesian inference.tex
+ [28]) [29] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/4 Bayesian inference.tex
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
  [30] [31]
@@ -1128,7 +1128,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33] [34] [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36] [37] [38]) [39] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/5 Application 1.tex
+ [36] [37] [38]) [39] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/5 Application 1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
@@ -1152,15 +1152,15 @@ Package pdftex.def Info: Figures/Tree_some_annot.pdf  used on input line 60.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/Tree_some_annot.pdf>]
+ [48 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/Tree_some_annot.pdf>]
 Underfull \vbox (badness 1701) has occurred while \output is active []
 
- [49] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_EK.tex)
+ [49] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_EK.tex)
 Overfull \hbox (15.30637pt too wide) in paragraph at lines 23--83
  [][] 
  []
 
-(/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./figures/tikz_anti.tex)
+(/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./figures/tikz_anti.tex)
 Overfull \hbox (15.30637pt too wide) in paragraph at lines 23--92
  [][] 
  []
@@ -1168,7 +1168,7 @@ Overfull \hbox (15.30637pt too wide) in paragraph at lines 23--92
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/tikz_dir.tex)
+(/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/tikz_dir.tex)
 <./Figures/prior_V.pdf, id=1047, 361.35pt x 361.35pt>
 File: ./Figures/prior_V.pdf Graphic file (type pdf)
 <use ./Figures/prior_V.pdf>
@@ -1196,12 +1196,12 @@ Package pdftex.def Info: Figures/prior_rest_anti.pdf  used on input line 142.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50] [51] [52 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/prior_V.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_dir4.pdf>] [53 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/prior_rest_anti.pdf>]
+[50] [51] [52 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/prior_V.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_dir4.pdf>] [53 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/prior_rest_anti.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54
 
-] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection.tex) [55] [56]
+] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection.tex) [55] [56]
 <Figures/compare_plots_s0_f.pdf, id=1146, 578.16pt x 289.08pt>
 File: Figures/compare_plots_s0_f.pdf Graphic file (type pdf)
 <use Figures/compare_plots_s0_f.pdf>
@@ -1226,7 +1226,7 @@ Package pdftex.def Info: Figures/compare_plots_s3_f.pdf  used on input line 209.
 
 LaTeX Warning: Float too large for page by 39.5731pt on input line 217.
 
-[57] [58 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_f.pdf>] [59 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_f.pdf>]
+[57] [58 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_f.pdf>] [59 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_f.pdf>]
 <Figures/best_lincomb_age.pdf, id=1211, 1084.05pt x 361.35pt>
 File: Figures/best_lincomb_age.pdf Graphic file (type pdf)
 <use Figures/best_lincomb_age.pdf>
@@ -1246,7 +1246,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/best_lincomb_cohort.pdf>]
+ [61 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/best_lincomb_cohort.pdf>]
 <Figures/lincomb_age_f.pdf, id=1241, 1084.05pt x 361.35pt>
 File: Figures/lincomb_age_f.pdf Graphic file (type pdf)
 <use Figures/lincomb_age_f.pdf>
@@ -1277,10 +1277,10 @@ File: Figures/lincomb_cohort_m.pdf Graphic file (type pdf)
 <use Figures/lincomb_cohort_m.pdf>
 Package pdftex.def Info: Figures/lincomb_cohort_m.pdf  used on input line 314.
 (pdftex.def)             Requested size: 350.5364pt x 116.84187pt.
- [62] [63 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f.pdf>] [64 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m.pdf>]
+ [62] [63 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f.pdf>] [64 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65] [66] [67] [68] [69] [70]) [71] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/6 Application 2.tex
+ [65] [66] [67] [68] [69] [70]) [71] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/6 Application 2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
@@ -1292,7 +1292,7 @@ Underfull \vbox (badness 1983) has occurred while \output is active []
  [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76] [77] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Figures/model_selection_survey.tex
+ [76] [77] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Figures/model_selection_survey.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1327,10 +1327,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_f_cohort.pdf>]
+ [81 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_f_cohort.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_hajek_m_cohort.pdf>]
+ [82 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_hajek_m_cohort.pdf>]
 <Figures/lincomb_age_f_survey.pdf, id=1563, 1084.05pt x 361.35pt>
 File: Figures/lincomb_age_f_survey.pdf Graphic file (type pdf)
 <use Figures/lincomb_age_f_survey.pdf>
@@ -1374,7 +1374,7 @@ LaTeX Warning: Float too large for page by 8.04231pt on input line 193.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83] [84 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_f_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_f_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_f_survey.pdf>] [85 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_age_m_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_period_m_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_cohort_m_survey.pdf>] [86
+[83] [84 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_f_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_f_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_f_survey.pdf>] [85 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_age_m_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_period_m_survey.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_cohort_m_survey.pdf>] [86
 
 ] [87]
 Underfull \vbox (badness 2111) has occurred while \output is active []
@@ -1410,15 +1410,15 @@ Package pdftex.def Info: Figures/lincomb_survey_filtered_cohort_m.pdf  used on i
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91] [92 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf>] [93 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf>]
+[91] [92 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f.pdf>] [93 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m.pdf>]
 Underfull \vbox (badness 1701) has occurred while \output is active []
 
  [94
 
-]) [95] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/7 Conclusion.tex
+]) [95] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/7 Conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]) [97] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.bbl [98] [99] [100] [101]
+ [96]) [97] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.bbl [98] [99] [100] [101]
 Underfull \hbox (badness 5119) in paragraph at lines 245--248
 []\T1/cmr/m/n/10.95 Lexis, W. H. R. A. (1875).  \T1/cmr/m/it/10.95 Ein-leitung in die The-o-rie der
  []
@@ -1443,7 +1443,7 @@ Underfull \hbox (badness 7558) in paragraph at lines 439--444
 \T1/cmr/m/n/10.95 si-fi-ca-tion of dis-eases and re-lated health prob-lems. 11th ed.
  []
 
-[105]) [106] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix Theory.tex [107] [108]) [109] (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/./Sections/Appendix A1.tex
+[105]) [106] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix Theory.tex [107] [108]) [109] (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/./Sections/Appendix A1.tex
 <Figures/rw2_age_f.pdf, id=1851, 1084.05pt x 361.35pt>
 File: Figures/rw2_age_f.pdf Graphic file (type pdf)
 <use Figures/rw2_age_f.pdf>
@@ -1487,25 +1487,20 @@ LaTeX Warning: Float too large for page by 25.9731pt on input line 71.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[110] [111 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/rw2_cohort_f.pdf>] [112 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s0_m.pdf>] [113 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s1_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s2_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_s3_m.pdf>] [114
+[110] [111 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_age_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/rw2_cohort_f.pdf>] [112 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s0_m.pdf>] [113 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s1_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s2_m.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_s3_m.pdf>] [114
 
-]
-Overfull \hbox (0.93163pt too wide) in paragraph at lines 88--89
-\T1/cmr/m/n/10.95 ([]https://github.com/Markutr/Masteroppgave[]). Here, we give some a high-
- []
-
-[115] [116]
+] [115] [116]
 Overfull \hbox (1.38298pt too wide) in paragraph at lines 114--115
 \T1/cmr/m/n/10.95 ef-fect we wish to in-clude in a lin-ear com-bi-na-tion, the \T1/cmtt/l/it/10.95 inla.make.lincomb()
  []
 
 [117]
-<Figures/lincomb_ind_agg_m_age.pdf, id=1982, 1084.05pt x 361.35pt>
+<Figures/lincomb_ind_agg_m_age.pdf, id=1983, 1084.05pt x 361.35pt>
 File: Figures/lincomb_ind_agg_m_age.pdf Graphic file (type pdf)
 <use Figures/lincomb_ind_agg_m_age.pdf>
 Package pdftex.def Info: Figures/lincomb_ind_agg_m_age.pdf  used on input line 142.
 (pdftex.def)             Requested size: 350.5364pt x 116.84187pt.
-<Figures/lincomb_ind_agg_m_cohort.pdf, id=1983, 1084.05pt x 361.35pt>
+<Figures/lincomb_ind_agg_m_cohort.pdf, id=1984, 1084.05pt x 361.35pt>
 File: Figures/lincomb_ind_agg_m_cohort.pdf Graphic file (type pdf)
 <use Figures/lincomb_ind_agg_m_cohort.pdf>
 Package pdftex.def Info: Figures/lincomb_ind_agg_m_cohort.pdf  used on input line 150.
@@ -1514,7 +1509,7 @@ Package pdftex.def Info: Figures/lincomb_ind_agg_m_cohort.pdf  used on input lin
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/compare_plots_indi_s0_f.pdf, id=1984, 578.16pt x 289.08pt>
+<Figures/compare_plots_indi_s0_f.pdf, id=1985, 578.16pt x 289.08pt>
 File: Figures/compare_plots_indi_s0_f.pdf Graphic file (type pdf)
 <use Figures/compare_plots_indi_s0_f.pdf>
 Package pdftex.def Info: Figures/compare_plots_indi_s0_f.pdf  used on input line 161.
@@ -1522,17 +1517,17 @@ Package pdftex.def Info: Figures/compare_plots_indi_s0_f.pdf  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/compare_plots_indi_s1_f.pdf, id=1987, 578.16pt x 289.08pt>
+<Figures/compare_plots_indi_s1_f.pdf, id=1988, 578.16pt x 289.08pt>
 File: Figures/compare_plots_indi_s1_f.pdf Graphic file (type pdf)
 <use Figures/compare_plots_indi_s1_f.pdf>
 Package pdftex.def Info: Figures/compare_plots_indi_s1_f.pdf  used on input line 171.
 (pdftex.def)             Requested size: 280.43019pt x 140.21245pt.
-<Figures/compare_plots_indi_s2_f.pdf, id=1988, 578.16pt x 289.08pt>
+<Figures/compare_plots_indi_s2_f.pdf, id=1989, 578.16pt x 289.08pt>
 File: Figures/compare_plots_indi_s2_f.pdf Graphic file (type pdf)
 <use Figures/compare_plots_indi_s2_f.pdf>
 Package pdftex.def Info: Figures/compare_plots_indi_s2_f.pdf  used on input line 179.
 (pdftex.def)             Requested size: 280.43019pt x 140.21245pt.
-<Figures/compare_plots_indi_s3_f.pdf, id=1989, 578.16pt x 289.08pt>
+<Figures/compare_plots_indi_s3_f.pdf, id=1990, 578.16pt x 289.08pt>
 File: Figures/compare_plots_indi_s3_f.pdf Graphic file (type pdf)
 <use Figures/compare_plots_indi_s3_f.pdf>
 Package pdftex.def Info: Figures/compare_plots_indi_s3_f.pdf  used on input line 187.
@@ -1543,23 +1538,23 @@ LaTeX Warning: Float too large for page by 53.17311pt on input line 195.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[118] [119 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf>] [120 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s0_f.pdf>] [121 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s1_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s2_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/compare_plots_indi_s3_f.pdf>]
-<Figures/lincomb_survey_filtered_age_f_rw2.pdf, id=2068, 1084.05pt x 361.35pt>
+[118] [119 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_age.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_ind_agg_m_cohort.pdf>] [120 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s0_f.pdf>] [121 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s1_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s2_f.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/compare_plots_indi_s3_f.pdf>]
+<Figures/lincomb_survey_filtered_age_f_rw2.pdf, id=2069, 1084.05pt x 361.35pt>
 File: Figures/lincomb_survey_filtered_age_f_rw2.pdf Graphic file (type pdf)
 <use Figures/lincomb_survey_filtered_age_f_rw2.pdf>
 Package pdftex.def Info: Figures/lincomb_survey_filtered_age_f_rw2.pdf  used on input line 211.
 (pdftex.def)             Requested size: 350.5364pt x 116.84187pt.
-<Figures/lincomb_survey_filtered_cohort_f_rw2.pdf, id=2069, 1084.05pt x 361.35pt>
+<Figures/lincomb_survey_filtered_cohort_f_rw2.pdf, id=2070, 1084.05pt x 361.35pt>
 File: Figures/lincomb_survey_filtered_cohort_f_rw2.pdf Graphic file (type pdf)
 <use Figures/lincomb_survey_filtered_cohort_f_rw2.pdf>
 Package pdftex.def Info: Figures/lincomb_survey_filtered_cohort_f_rw2.pdf  used on input line 219.
 (pdftex.def)             Requested size: 350.5364pt x 116.84187pt.
-<Figures/lincomb_survey_filtered_age_m_rw2.pdf, id=2070, 1084.05pt x 361.35pt>
+<Figures/lincomb_survey_filtered_age_m_rw2.pdf, id=2071, 1084.05pt x 361.35pt>
 File: Figures/lincomb_survey_filtered_age_m_rw2.pdf Graphic file (type pdf)
 <use Figures/lincomb_survey_filtered_age_m_rw2.pdf>
 Package pdftex.def Info: Figures/lincomb_survey_filtered_age_m_rw2.pdf  used on input line 232.
 (pdftex.def)             Requested size: 350.5364pt x 116.84187pt.
-<Figures/lincomb_survey_filtered_cohort_m_rw2.pdf, id=2071, 1084.05pt x 361.35pt>
+<Figures/lincomb_survey_filtered_cohort_m_rw2.pdf, id=2072, 1084.05pt x 361.35pt>
 File: Figures/lincomb_survey_filtered_cohort_m_rw2.pdf Graphic file (type pdf)
 <use Figures/lincomb_survey_filtered_cohort_m_rw2.pdf>
 Package pdftex.def Info: Figures/lincomb_survey_filtered_cohort_m_rw2.pdf  used on input line 240.
@@ -1570,10 +1565,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [122
 
- </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf>]
+ </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_f_rw2.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_f_rw2.pdf>]
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
- [123 </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf>]
+ [123 </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_age_m_rw2.pdf> </Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/Figures/lincomb_survey_filtered_cohort_m_rw2.pdf>]
 Overfull \hbox (11.95427pt too wide) in paragraph at lines 262--263
 \T1/cmtt/l/it/10.95 list(hyper = list(prec = list(initial = log(1), fixed = T)))\T1/cmr/m/n/10.95 , and
  []
@@ -1581,11 +1576,11 @@ Overfull \hbox (11.95427pt too wide) in paragraph at lines 262--263
 ) [124]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
- (/Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.aux)
+ (/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B1BDFC9741F1BC0FE6A2E78B101661EE;3992.
+(rerunfilecheck)             Checksum: D5781A176516ED4579BF207B6989B6CD;3992.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1597,17 +1592,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  25446 strings out of 480608
- 463162 string characters out of 5903630
+ 463514 string characters out of 5903630
  900304 words of memory out of 5000000
  40378 multiletter control sequences out of 15000+600000
  554877 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,19n,81p,3188b,1827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,81p,3179b,1827s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /Users/MarkusTraetli/Desktop/Masteroppgave/LaTeX/main.pdf (134 pages, 1828507 bytes).
+Output written on "/Users/MarkusTraetli/Desktop/Masteroppgave final/LaTeX/main.pdf" (134 pages, 1829452 bytes).
 PDF statistics:
- 2299 PDF objects out of 2487 (max. 8388607)
- 1982 compressed objects within 20 object streams
+ 2300 PDF objects out of 2487 (max. 8388607)
+ 1983 compressed objects within 20 object streams
  349 named destinations out of 1000 (max. 500000)
  737 words of extra memory for PDF output out of 10000 (max. 10000000)
 
