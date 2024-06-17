@@ -1,0 +1,53 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Survey data in American households}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The National Health Interview Survey}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Explorative analysis of back pain data for males and females}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Age-Period-Cohort models}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{The Lexis diagram}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{The univariate age-period-cohort model}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{The multivariate age-period-cohort \(MAPC\) model}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Cross strata inference with MAPC models}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Bayesian inference in Age-Period-Cohort models}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Latent field priors}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Gaussian Markov random fields}{subsection.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Random walk 1}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Random walk 2}{subsection.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Hyperpriors}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Component specific priors}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Joint priors}{subsection.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Approximate Bayesian inference using INLA}{section.4}% 18
+\BOOKMARK [1][-]{section.5}{Analysing temporal trends in back pain data}{}% 19
+\BOOKMARK [2][-]{subsection.5.1}{Preprocessing and model specification}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.2}{Prior elicitation}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Latent field prior}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Incorporation of expert knowledge}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Implementation in R}{subsection.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Posterior inference}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Model selection}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.5}{Prior sensitivity analysis}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Methods}{subsection.5.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Results}{subsection.5.5}% 29
+\BOOKMARK [2][-]{subsection.5.6}{Results}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.7}{Discussion}{section.5}% 31
+\BOOKMARK [1][-]{section.6}{Complex survey design}{}% 32
+\BOOKMARK [2][-]{subsection.6.1}{Accounting for the sampling design}{section.6}% 33
+\BOOKMARK [3][-]{subsubsection.6.1.1}{H\341jek estimator}{subsection.6.1}% 34
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Transformation to logit scale}{subsection.6.1}% 35
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Implementation}{subsection.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.2}{Model selection}{section.6}% 37
+\BOOKMARK [2][-]{subsection.6.3}{Results}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.4}{Discussion}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.5}{Further investigation on a subpopulation}{section.6}% 40
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Results}{subsection.6.5}% 41
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Discussion}{subsection.6.5}% 42
+\BOOKMARK [1][-]{section.7}{Closing remarks}{}% 43
+\BOOKMARK [1][-]{appendix.A}{Additional details on model selection criteria}{}% 44
+\BOOKMARK [1][-]{appendix.B}{Extra figures and implementation details}{}% 45
+\BOOKMARK [2][-]{subsection.B.1}{Extras of Section 5}{appendix.B}% 46
+\BOOKMARK [3][-]{subsubsection.B.1.1}{Extra figures}{subsection.B.1}% 47
+\BOOKMARK [3][-]{subsubsection.B.1.2}{Details on implementation in R}{subsection.B.1}% 48
+\BOOKMARK [3][-]{subsubsection.B.1.3}{Linear combinations in INLA}{subsection.B.1}% 49
+\BOOKMARK [3][-]{subsubsection.B.1.4}{Individual specific MAPC model}{subsection.B.1}% 50
+\BOOKMARK [2][-]{subsection.B.2}{Extras of Section 6}{appendix.B}% 51
+\BOOKMARK [3][-]{subsubsection.B.2.1}{Extra figures}{subsection.B.2}% 52
+\BOOKMARK [3][-]{subsubsection.B.2.2}{Details on implementation in R}{subsection.B.2}% 53

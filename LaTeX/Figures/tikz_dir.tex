@@ -1,0 +1,20 @@
+
+\begin{tikzpicture}[
+    rounded corners,
+    minimum height = 0.5cm, 
+    minimum width = 0.8cm
+]
+\node[draw] (top) [fill = red!100] {{\color{black}\small Total variability}};
+\node[draw] (US) [below of = top, xshift = -3cm, yshift = -0.5cm, fill = red!25] {\small Unstructured};
+\node[draw] (Age) [below of = top, xshift = -1cm, yshift = -0.5cm, fill = red!25] {\small Age};
+\node[draw] (Period) [below of = top, xshift = 1cm, yshift = -0.5cm, fill = red!25] {\small Period};
+\node[draw] (Cohort) [below of = top, xshift = 3cm, yshift = -0.5cm, fill = red!25] {\small Cohort};
+% arrows
+\path[->, every node/.style = {sloped, anchor = south, auto = false, anchor = mid, yshift = 0.15cm}]
+(top) edge[] node[] {} (US)
+(top) edge[] node[] {} (Age)
+(top) edge[] node[] {} (Period)
+(top) edge[] node[] {} (Cohort)
+;
+
+\end{tikzpicture}

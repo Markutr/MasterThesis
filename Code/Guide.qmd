@@ -1,0 +1,146 @@
+---
+title: "Code instructions"
+format: html
+editor: visual
+---
+
+## Introduction
+
+Here we will be going through the basic functionality for the code i wrote for my master's thesis. I have concatenated all the model fitting into a single function, provided data on the correct format.
+
+## Libraries & setup
+
+The following libraries are required.
+
+```{r, warning=FALSE}
+library(dplyr)
+library(tidyr)
+library(plyr)
+library(ggplot2)
+library(stringr)
+library(INLA)
+library(makemyprior)
+library(matrixcalc)
+library(haven)
+library(labelled)
+library(fastDummies)
+library(survey)
+library(bayestestR)
+library(rlang)
+```
+
+INLA is only available from <https://www.r-inla.org>. All other packages are available from CRAN using install.packages().
+
+From the location of this file, the program requires the NHIS .dta object to be placed in the folder "Data". The computed results are saved to this location to save memory and time as things will not have to be computed multiple times. Moreover, the computed prior objects are placed under the folder "Priors". If these folders do not exist, create them, and note that if you are on windows the folder and file names are case sensitive! The required scripts ("Inference.R", "functions.R", "plotting functions.R" and "data preprocessing.R") are placed in the same location as this .qmd file.
+
+```{r}
+NHIS_data_name = "CODED-NHIS-1997-2018-24-05-09.dta"
+file.exists(paste("./Data/", NHIS_data_name, sep = "")) &
+file.exists("./Priors") &
+file.exists("./Inference.R") &
+file.exists("./functions.R") &
+file.exists("./plotting functions.R") &
+file.exists("./data preprocessing.R")
+```
+
+The above cell should return TRUE if the .dta object is found along with the required R scripts. If the working directory is set somewhere else, use setwd() to adjust it.
+
+To recreate all the inference of the thesis, the additional files "EK_model_selection.R", "Survey_model_selection.R" and "make figures.R" are required.
+
+## Data preprocessing
+
+To process the raw data extract, we run the "data preprocessing.R" script. This may take \~20 minutes. We also run our script of functions. If the processed data is already computed, it will simply be loaded instead.
+
+```{r}
+source("./data preprocessing.R")
+source("./functions.R")
+```
+
+## Computing the priors
+
+To generate all priors, use this:
+
+```{r}
+#Special_priors refers to the alternative aPc prior structures (anti-ek, Dirichlet and semi-dirichlet), but they are not needed outside prior sensitivity analysis.
+generate_priors(bp_data_f, "n_backpain", special_priors = F, skip_load = T)
+```
+
+To generate specific priors, do
+
+```{r}
+prior = makePriorAPC(bp_data_f, "n_backpain", apc_format = "aPc")
+```
+
+## Fitting models
+
+To fit models, the function inlaAPC() is used. It is used slightly differently when using survey weight data. The linear combinations for cross strata differences are computed automatically, and the prior object is loaded from file or created if necessary. Examples for both are given below using the aPc model:
+
+Available datasets **not** using survey weights: bp_data_f, bp_data_m, bp_ind_f, bp_ind_m.
+
+Models using these datasets are fitted using:
+
+```{r}
+#Not using survey weights
+inla_result_noweight_f = inlaAPC("aPc", bp_data_f, "n_backpain")
+```
+
+Available datasets using survey weights: survey_data_f, survey_data_m, survey_data_f_filter, survey_data_m_filter.
+
+Models using these datasets are fitted using:
+
+```{r}
+#Using survey weights
+inla_result_weight_f = inlaAPC("aPc", survey_data_f, "logit_phat", family = "gaussian", do_scale = T)
+```
+
+The f/m suffix specifies what sex is being used. For use, I do not recommend to use bp_ind_f and bp_ind_m, as they use data on individual specific format, and will entail long computation times. The filter suffix refer to the subset of participants that are white and born in the U.S. (Section 6.5).
+
+## Visualization of cross strata differences
+
+To plot the cross strata differences, we use plot_lincombs_joint(), while supplying a list of the models we wish to plot for. Those with stratum specific age effects will all be plotted in same plots, and the same goes for period and cohort.
+
+```{r, echo=F}
+source("./plotting functions.R") #Load functions
+lincombs = plot_lincombs_joint(list("Weight" = inla_result_weight_f$inla, "Noweight" = inla_result_noweight_f$inla))#Save list of plots for grid
+
+#we have stratum specific age and cohort, so lincombs has 6 plots
+
+#First 3 are age trends
+#ggarrange(plotlist = lincombs[c(2,1,3)], nrow = 1, ncol = 3)
+
+#The last 3 are cohort trends
+#ggarrange(plotlist = lincombs[c(5,4,6)], nrow = 1, ncol = 3) #Order again
+
+#Plot all individually
+lincombs
+
+```
+
+## Full inference & visualization
+
+To fit all models used in the thesis, the "inference.R" script will make all of them, even the ones with component specific priors. To obtain all the visualizations of the thesis, run "make figures.R", though this will take a while as it needs to fit all models. By default, it skips the model selection tables if model selection has not been performed. If you want to reproduce them, run "Survey_model_selection.R" and "EK_model_selection.R" first. If you want the figures, make sure to create the folder "Figures" in the same folder you put this file.
+
+```{r, eval=FALSE}
+if (F){ #Will take a lot of time and memory, do not run unless you want all models
+  source("./inference.R")
+}
+if (F){ #Model selection not using the survey weights
+  source("./EK_model_selection.R")
+}
+if (F){ #Model selection using the survey weights
+  source("./Survey_model_selection.R")
+}
+if (F){ #Produce all figures and save them to ./Figures
+  source("./make figures.R")
+}
+```
+
+## Adaptation for different data & notes
+
+To adapt the models for different data, I recommend preprocessing your data according to what is done in "data preprocessing.R". With the same structure and column names, the models should be readily applicable. If you want a different likelihood (like poisson), you have to edit inlaAPC(). To see how, check the different implementations for binomial and Gaussian data, and it should be clear what needs to be changed. As the latent field is unchanged, the same priors should be applicable if they have already been computed. If not, then you may have to change makepriorAPC() aswell.
+
+As for the implementation of RW2 priors on the latent field, i have added functionality for it by using rw_order = "222" (each 2 denotes we want each component apc to be rw2. You can mix between 1 and 2), though i encountered problems in computing the prior. In theory, it should work, but im guessing some numerics in computing the inverse dont work out. It works when using "112", i.e. only rw on the cohort effect.
+
+```{r}
+rw2_example = inlaAPC("aPc", bp_data_f, "n_backpain", rw_order = "222")
+```

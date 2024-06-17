@@ -1,0 +1,20 @@
+\begin{table}[h!]
+\centering
+\begingroup\footnotesize\setstretch{1.2}
+
+\begin{tabularx}{\textwidth}{llXXXXXX}
+\hline
+ &  & apC & aPc & aPC & Apc & ApC & \multicolumn{1}{c}{APc} \\ 
+\hline
+\nopagebreak log-score & \nopagebreak Female  & 0.441 & \textbf{ 0.438 } & 0.440 & 0.443 & 0.451 & 0.441 \\
+ & \nopagebreak Male  & 0.592 & \textbf{ 0.588 } & 0.589 & 0.593 & 0.601 & 0.589 \\
+\rule{0pt}{0.9\normalbaselineskip}WAIC & \nopagebreak Female  & 4589 & \textbf{ 4568 } & 4580 & 4613 & 4719 & 4592 \\
+ & \nopagebreak Male  & 6146 & \textbf{ 6116 } & 6122 & 6139 & 6244 & 6117 \\
+\rule{0pt}{0.9\normalbaselineskip}DIC & \nopagebreak Female  & 4555 & \textbf{ 4539 } & 4546 & 4571 & 4691 & 4580 \\
+ & \nopagebreak Male  & 6114 & \textbf{ 6082 } & 6090 & 6084 & 6212 & 6085 \\
+\hline 
+\end{tabularx}\endgroup
+ \caption{The achieved logarithmic score, WAIC, and DIC for each of the 6 candidate MAPC models accounting for the survey design, specified by different combinations of stratum-specific and shared age, period, and cohort effects. Shared effects are denoted with uppercase letters, and stratum-specific effects are denoted with lowercase letters. For each sex, the best model by each criterion is highlighted in bold.} \label{fig:model_selection_survey}
+
+
+\end{table}

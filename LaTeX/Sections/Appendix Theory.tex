@@ -1,0 +1,42 @@
+\section{Additional details on model selection criteria}
+\label{section:disease-mapping:criteria}
+This section contains additional details on the model selection criteria used to rank models. They are included here for completeness. All topics here are taken from my project thesis \citep{Prosjektoppgave}, and for further information I recommend you read the project report. 
+
+After fitting the desired models, we wish to compare models to each other. Naturally, we expect a model with more parameters to be able to achieve a better fit, but at the same time keep model complexity low. Therefore, we want to compare criteria that penalize model complexity while taking into account goodness of fit of the model. 
+
+\subsection*{Deviance information criterion}
+\label{section:disease-mapping:criteria:DIC}
+The deviance information criterion (DIC) \citep{DIC} is a generalization of the Akaike information criterion, which is tailored towards hierarchical models. Its main use is in Bayesian model selection problems, and uses the posterior to calculate the information criterion. The criterion penalizes complex models, and takes into account goodness-of-fit. It is calculated as
+\begin{equation}
+    \text{DIC} = D( \hat{\pmb x}, \hat{\pmb \theta}) +  2p_D
+    \label{eqn:DIC}
+\end{equation}
+where $D(\cdot)$ is the deviance, $\hat{\pmb x}$ and $\hat{\pmb\theta}$ are the posterior expectations of the latent fields and the hyperparameters respectively. Here, $p_D$ is the effective number of hyperparameters, and may be computed in several ways. The procedure presented in \cite{DIC} is used in \texttt{R-INLA}, and computes $p_D$ as
+\begin{equation*}
+    p_D = \mathbb{E}[D(\cdot)] = D(\hat{\pmb x}, \hat{\pmb \theta}).
+    \label{eqn:DIC-pD}
+\end{equation*}
+Due to the tendency of skewed hyperparameter posterior distributions, \texttt{R-INLA} uses the posterior mode of $\hat{\pmb \theta}$ rather than the posterior mean. The models that have a lower DIC are more favorable.
+
+
+\subsection*{Watanabe–Akaike information criterion}
+\label{section:disease-mapping:criteria:WAIC}
+Similarly to the DIC, the Watanabe–Akaike information criterion (WAIC) introduced in \cite{WAIC} is tailored to Bayesian hierarchical models, and is computed in a similar fashion. Similarly to Equation \eqref{eqn:DIC}, the WAIC is computed as
+\begin{equation}
+    \text{WAIC} = D( \hat{\pmb x}, \hat{\pmb \theta}) +  2p_D,
+    \label{eqn:WAIC}
+\end{equation}
+where $D(\cdot)$, $\hat{\pmb x}$ and $\hat{\pmb\theta}$ are as before. The major difference between these two information criteria lies in the computation of the effective number of parameters $p_D$. See \cite{WAIC} and \cite{WAIC2} for further reading. 
+
+
+\subsection*{Logarithmic score and conditional predictive ordinates}
+\label{section:disease-mapping:criteria:CPO}
+The conditional predictive ordinates (CPO) introduced in \cite{CPO} are a criterion for model assessment commonly used for Bayesian hierarchical models, and is computed in a cross-validatory fashion. Rather than being an information criterion giving a single number for the model as a whole, it is computed for every observed data point $y_i$ as the posterior probability of observing $y_i$ in a model which was fitted using all data except $y_i$, denoted here by $y_{-i}$. As such, the CPO for $y_i$ is then calculated as
+\begin{equation}
+    \text{CPO}_i = \pi(y_i \mid y_{-i}).
+\end{equation}
+Large values of CPO typically indicate a better fit, while smaller values tend to point towards outliers or bad fit. The $\text{CPO}_i$ values are typically aggregated to define the logarithmic score \citep{proper-scoring}. It is defined as 
+\begin{equation}
+    \text{logarithmic score} = -\frac{1}{n}\sum_{i=1}^n \log(\text{CPO}_i),
+\end{equation}
+with smaller values indicating a more favorable model. This scoring is of major interest as it is a proper scoring rule as showed by \cite{proper-scoring}. In \texttt{R-INLA}, an approximation of the CPO is available to avoid repetitive fitting with leaving observations out. See \cite{Held2010} for computational details.

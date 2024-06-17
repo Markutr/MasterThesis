@@ -1,0 +1,207 @@
+\documentclass[b5paper, twoside, titlepage, 11pt]{article}
+
+% Så sier vi fra om hvilke tilleggspakker vi trenger
+% til dokumentet vårt. De som du ikke trenger (se kommentaren) 
+% kan det være en fordel å kommentere ut (sett prosenttegn foran),
+% da vil kompilering gå raskere.
+
+%\usepackage[norsk]{babel}	% norske navn rundt omkring
+\usepackage[T1]{fontenc}		% norsk tegnsett (æøå)
+\usepackage[utf8]{inputenc}	% norsk tegnsett
+\usepackage[b5paper]{geometry}		% anbefalt pakke for å styre marger.
+
+\usepackage{amsmath,amsfonts,amssymb} % matematikksymboler
+\usepackage{mathtools}
+\usepackage{amsthm}                   % for å lage teoremer og lignende.
+\usepackage{graphicx}                 % inkludering av grafikk
+\usepackage{subcaption}                 % hvis du vil kunne ha flere
+                                      % figurer inni en figur
+\usepackage{listings}                 % Fin for inkludering av kildekode
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{placeins}                 % Floatbarrier
+\usepackage[dvipsnames,svgnames]{xcolor}                   % Textcolor
+\usepackage{hyperref}                 % Hyperlinks
+\usepackage[round]{natbib}
+\bibliographystyle{dcuurl}
+\usepackage{booktabs}                 % Tables
+\usepackage{tabularx, ragged2e}                 % Tables
+\newcolumntype{C}{>{\Centering}X}    % centered version of X column type
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}  % ragged-right version of X col. type
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
+
+\usepackage[inkscapearea=page]{svg}
+%\usepackage{caption}
+%\usepackage{subcaption}
+
+%\usepackage{natbib}                   % Bibliography management
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{titlesec}
+\usepackage[htt]{hyphenat}
+\usepackage{url}
+
+\mathtoolsset{showonlyrefs}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+
+  \def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\numberwithin{equation}{section}
+\counterwithin{figure}{section}
+
+\captionsetup[subfigure]{font={bf,large}, skip=1pt, margin=0cm, singlelinecheck=false}
+
+
+
+\setlength{\parindent}{0pt}           % Set indents to zero
+\usepackage{enumitem}
+\renewcommand{\theenumi}{\alph{enumi}}
+\usepackage{listings}
+
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character, weights, by, formula, scale, family, log, list, control},
+    keywordstyle=\color{blue},
+    commentstyle=\color{DarkGreen},
+}
+
+\renewcommand{\contentsname}{Table of Contents}
+\linespread{1.22}
+\begin{document}
+
+% På forsida skal vi ikke ha noen sidenummerering:
+
+\pagestyle{empty}
+\pagenumbering{roman}
+
+% Inkluder forsida:
+\input{Sections/forside}
+
+% Romerske tall på alt før selve rapporten starter er pent.
+\pagenumbering{roman}
+
+% For å ikke begynne innholdslista på baksida av forsida:
+\cleardoublepage
+% (kun aktuelt når man har twoside som global opsjon)
+
+% Nå vi vil ha noe i topp- og bunnteksten
+\pagestyle{headings}
+\titleformat{\section}[block]{\normalfont\fontsize{20}{25}\bfseries\filcenter}{}{1em}{}
+\input{./Sections/abstract_en.tex}
+\cleardoublepage
+\newpage
+\input{./Sections/abstract_no.tex}
+\cleardoublepage
+\newpage
+\input{./Sections/preface.tex}
+\cleardoublepage
+\newpage
+
+% Si til LaTeX at vi vil ha ei innholdsliste generert akkurat her:
+\linespread{0.7}
+\tableofcontents
+\linespread{1.25}
+% Pass på at neste side ikke begynner på baksida av en annen side.
+\cleardoublepage
+
+% Arabisk (vanlige tall) sidenummerering. Starter på side 1 igjen.
+\pagenumbering{arabic}
+
+%Title format
+\titleformat{\section}[block]{\normalfont\fontsize{15}{20}\bfseries\filcenter}{\thesection.}{1em}{}
+
+\titleformat{\subsubsubsection}
+  {\itshape\normalsize}{\thesubsubsubsection}{1em}{}
+
+\input{./Sections/1 Introduction.tex}
+\FloatBarrier
+\newpage
+
+\input{./Sections/2 Survey data in American households.tex}
+\FloatBarrier
+\newpage
+\clearpage
+
+\input{./Sections/3 Age-period-Cohort models.tex}
+\FloatBarrier
+\newpage
+
+\input{./Sections/4 Bayesian inference.tex}
+\FloatBarrier
+\newpage
+
+\input{./Sections/5 Application 1.tex}
+\FloatBarrier
+\newpage
+
+\input{./Sections/6 Application 2.tex}
+\FloatBarrier
+\newpage
+
+\input{./Sections/7 Conclusion.tex}
+\FloatBarrier
+\newpage
+
+%\input{./Sections/8 Application 3.tex}
+%\FloatBarrier
+%\newpage
+
+% Bibliografi/referanseliste skal komme før appendiks
+
+\bibliography{references}
+
+% En latex-kommando for å si fra at kapitlene/seksjonene fra nå 
+% av skal nummereres med store bokstaver:
+\appendix
+
+\FloatBarrier
+\newpage
+\input{./Sections/Appendix Theory.tex}
+
+
+\FloatBarrier
+\newpage
+\input{./Sections/Appendix A1.tex}
+
+% Indeks for rapporten. Ta bort prosenttegn hvis du vil ha det med.
+%\printindex
+
+% Avslutter dokumentet vårt:
+\end{document}
+
+% Local Variables:
+% TeX-master: "master"
+% End:

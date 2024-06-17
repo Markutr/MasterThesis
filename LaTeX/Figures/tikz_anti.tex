@@ -1,0 +1,23 @@
+
+\begin{tikzpicture}[
+    rounded corners,
+    minimum height = 0.5cm, 
+    minimum width = 0.8cm
+]
+\node[draw] (top) [fill = red!100] {{\color{black}\small Total variability}};
+\node[draw] (gen) [below of = top, xshift = 1.2cm, yshift = -0.5cm, fill = red!60] {\small Structured};
+\node[draw] (env) [below of = top, xshift = -1.2cm, yshift = -0.5cm, fill = red!40] {\small Unstructured};
+\node[draw] (add) [below of = gen, xshift = -1.2cm, yshift = -0.5cm, fill = red!52.5] {\small Period};
+\node[draw] (nonadd) [below of = gen, xshift = 1.2cm, yshift = -0.5cm, fill = red!8.5] {\small Age \& cohort};
+\node[draw] (dom) [below of = nonadd, xshift = -0.9cm, yshift = -0.5cm, fill = red!2.4] {\small Age};
+\node[draw] (epi) [below of = nonadd, xshift = 0.9cm, yshift = -0.5cm, fill = red!6.1] {\small Cohort};
+% arrows
+\path[->, every node/.style = {sloped, anchor = south, auto = false, anchor = mid, yshift = 0.15cm}]
+(top) edge[dashed, line width = 0.4mm] node[] {} (env)
+(top) edge[line width = 0.5mm] node[] {} (gen)
+(gen) edge[line width = 0.8mm] node[] {} (add)
+(gen) edge[] node[] {} (nonadd)
+(nonadd) edge[line width = 0.4mm] node[] {} (dom)
+(nonadd) edge[line width = 0.7mm] node[] {} (epi);
+
+\end{tikzpicture}

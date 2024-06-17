@@ -1,0 +1,100 @@
+\section{Bayesian inference in Age-Period-Cohort models}\label{section:BayesianInference}
+The multivariate APC model introduced in Section \ref{section:Age-period-cohort-models} may be formulated in a Bayesian framework, allowing for the incorporation of smoothing effects and prior information to improve stability of inference \citep{APC-Bayesian-Andrea}. This is achieved by formulating our models as a Bayesian hierarchical model with three levels, namely the likelihood, latent field, and hyperpriors. Similar to the setup in APC models in frequentist settings, the likelihood links the observations to the underlying linear predictor consisting of the age, period, and cohort effects along with an intercept, as in Equation \eqref{eqn:linear-predictor}. In Bayesian settings, this linear predictor is referred to as the latent field, with a major distinction in interpretation, since the linear predictor is now interpreted as a joint distribution that is constituted by each individual prior distribution placed on the components. Some terms of the linear predictor are referred to as random effects, conveying that the effect is assumed to follow a distribution respecting some dependency structure. The dependency structure of an effect represents how the effect at each temporal point is related to the effect at all other temporal points. To incorporate dependency structures as a distribution, Gaussian Markov random fields (GMRFs) are used \citep{GMRF}. The remaining terms, such as the intercept, is referred to as fixed effects, though these are also assigned a prior distribution in practice.
+
+In our Bayesian implementation, we consider the age, period, and cohort effects as random effects, each with their own set of indices reflecting different age groups, periods, and birth cohorts. For each effect, we assume that there is some temporal structure beforehand, which is then included in the model using a GMRF respecting the temporal structure. In Bayesian analyses, an additional random effect is introduced in the latent field (i.e., linear predictor) to account for unexplained temporal variability that is not captured by the other random effects \citep{APC-Bayesian-Andrea}. This random effect is unstructured, meaning it is independent across the temporal indices. Moreover, the parameters of the prior distributions of the random effects in the latent field are also considered random variables, meaning that these parameters require their own prior distributions. Placing reasonable priors on the latent field parameters is difficult, as translating prior knowledge into probability distributions on parameters is unintuitive \citep{PC-priors}. Priors can be placed on the parameters of each random effect, or jointly for all effects after a reparameterization of the model. Using a variation of Bayes rule, we are able to update our prior beliefs about the parameters of the latent field using the provided data.
+
+In Section \ref*{section:gmrf}, we will first describe Gaussian Markov random fields and present two suitable candidates for the latent field in our application. Afterwards, in Sections \ref{section:component_specific_priors} and \ref{section:joint_priors}, we will elaborate on methods to place reasonable priors on the parameters of the latent field. Finally, Section \ref{section:INLA} covers INLA, our preferred method of approximate Bayesian inference. For further reading on Bayesian hierarchical models see my project work \citep{Prosjektoppgave}. 
+
+\subsection{Latent field priors}
+
+\subsubsection{Gaussian Markov random fields}
+\label{section:gmrf}
+In APC models, it is commonly assumed that temporally adjacent observations are similar, and we therefore wish to construct a zero-mean Gaussian prior using pairwise differences to model the latent field. By using pairwise differences, the prior is based on local information, resulting in a smoothing effect. These smoothing priors restrict the short-term temporal variability to obtain a latent field that accounts for temporal auto-correlation with a smoother risk trend. 
+
+As mentioned, a common class of latent field priors used extensively in Bayesian inference achieving the desired smoothing effects is the class of Gaussian Markov random fields (GMRFs). A GMRF is a random vector $\pmb x \in \mathbb{R}^n$ following a multivariate Gaussian distribution endowed with Markov properties. The Markov properties allows the random variables to be dependent on the random variables in their neighborhood (in our case, temporally adjacent variables), and are encoded in the precision (inverse covariance) matrix $\pmb Q$ of the distribution. For any two random variables $x_i,x_j \in \pmb x$ we have $Q_{ij}=0$ if and only if $x_i$ and $x_j$ are conditionally independent given all the other random variables in $\pmb x$. We say that $\pmb x\in \mathbb{R}^n$ is a GMRF with mean $\pmb \mu\in\mathbb{R}^n$ and precision $\pmb Q\in \mathbb{R}^{n\times n}$ if the density of $\pmb x$ is 
+\begin{equation*}
+    f(\pmb x) = (2\pi)^{-\frac{n}{2}}|\pmb Q |^{\frac{1}{2}}\exp\left(-\frac{1}{2}(\pmb x - \pmb \mu)^\top \pmb Q (\pmb x - \pmb \mu)\right).
+\end{equation*}
+A special subclass of GMRFs, called intrinsic Gaussian Markov random fields (IGMRFs), are of interest for temporal analyses. In an IGMRF, the precision $\pmb Q$ is rank deficient, resulting in an improper density. In practice, IGMRF are useful as they span a large variety of models with different local dependency structures, and have been used in various fields of research. The impropriety is commonly solved by sum-to-zero constraints, requiring the same number of constraints as the rank deficiency. For further details, see \cite{GMRF} and \cite{Prosjektoppgave}. 
+
+\subsubsection{Random walk 1}
+One of the simplest ways such IGMRFs is constructed is using first-order differences. Let $\pmb x\in\mathbb{R}^n$ be a GMRF as above. A vital assumption for this GMRF is that the locations of all the observations $x_i\in\pmb x$ are chronologically ordered and equally spaced, such that the observation $x_i$ only depends on observations $x_{i-1}$ and $x_{i+1}$. Moreover, we assume that the increments are independent. That is,
+\begin{equation*}
+    x_{i+1} - x_i \overset{iid}{\sim} \mathcal{N}(0, \tau^{-1}), \quad i = 1,...,n-1,
+\end{equation*}
+where $\tau$ is the precision parameter and is used to determine the scale of the variation. Using the property of independent increments, we arrive at the density of the first-order random walk prior: 
+\begin{align*}
+    f(\pmb x|\tau) & \propto \tau^{(n-1)/2}\exp\left( -\frac{\tau}{2}\sum_{i=2}^n(x - x_{i-1})^2 \right)\\\\
+    & = \tau^{(n-1)/2}\exp\left( -\frac{1}{2}\pmb x^\top \pmb Q \pmb x \right),
+\end{align*}
+where $\pmb Q = \tau \pmb S_{\text{RW1}}$ is the precision matrix, and $\pmb S_{\text{RW1}}$ is the structure matrix defined as
+\begin{equation}
+    \pmb S_{\text{RW1}} = \begin{pmatrix}
+        1 & -1 &  &  &  &&\\
+        -1 & 2 & -1 &  &  &&\\
+        & -1&  2& -1& \\
+         & & \ddots& \ddots &\ddots & &  \\
+         &&&-1&2&-1&\\
+         & && & -1 & 2 & -1 \\
+         & && &  & -1 & 1 
+        \end{pmatrix}.
+        \label{eqn:rw1-structure-matrix}
+\end{equation}
+Here, the non-given entries are all 0, yielding a sparse construction that is used to great extents in computations. It is easy to verify that $\pmb Q\cdot \pmb 1 = \pmb 0$, where $\pmb 1$ is the vector of length $n$ with one in all entries, meaning that the precision matrix is of rank $n-1$, and is thereby referred to as an IGMRF of order 1. A useful consequence of this is that the density is invariant to any constant trends, meaning that adding a constant vector to $\pmb x$ will not change the density.
+
+\subsubsection{Random walk 2}
+A natural extension of the first-order random walk comes when considering second-order differences rather than first-order differences. Letting $\pmb x\in\mathbb{R}^n$ be a GMRF as before, and again assuming chronologically ordered observations, we now assume independent second-order differences. That is,
+\begin{align}
+    x_{i+2} - 2x_{i+1} + x_i \overset{iid}{\sim}\mathcal{N}(0, \tau^{-1}), \quad i = 1,...,n-2,
+\end{align}
+where $\tau$ is the precision parameter. Then, the joint density of $\pmb x$ is
+\begin{align*}
+f(\pmb x|\tau) & \propto \tau^{(n-2)/n}\exp\left( -\frac{\tau}{2}\sum_{i=1}^{n-2}(x_{i+2} - 2x_{i+1} + x_{i})^2\right) \\\\
+& \tau^{(n-2)/2}\exp \left(-\frac{1}{2}\pmb x^\top \pmb Q \pmb x\right). 
+\end{align*}
+Here, the precision matrix is $\pmb Q=\tau\pmb S_{RW2}$, where the structure matrix $\pmb S_{RW2}$ defined as
+\begin{equation}
+    \pmb S_{RW2} = \begin{pmatrix}
+        1 & -2 & 1 &  &  &  &  &  &  \\
+        -2 & 5 & -4 & 1 &  &  &  &  &  \\
+        1 & -4 & 6 & -4 & 1 &  &  &  &  \\
+         & 1 & -4 & 6 & -4 & 1 &  &  &  \\
+         &  & \ddots & \ddots & \ddots & \ddots & \ddots &  &  \\
+         &  &  & 1 & -4 & 6 & -4 & 1 &  \\
+         &  &  &  & 1 & -4 & 6 & -4 & 1 \\
+         &  &  &  &  & 1 & -4 & 5 & -2 \\
+         &  &  &  &  &  & 1 & -2 & 1 
+        \end{pmatrix},
+\end{equation}
+with the non-given entries again being set to $0$. As the structure matrix has rank $n-2$, two constraints are needed. While the first-order random walk is invariant to constant trends, the second-order random walk is invariant to polynomials of order one. That is, adding a linear trend to $\pmb x$ will not change the density. 
+
+\subsection{Hyperpriors}
+\subsubsection{Component specific priors}
+\label{section:component_specific_priors}
+\textit{Note that parts of this section is based on my discussion on joint and component specific priors in my project work \citep{Prosjektoppgave} leading up to this thesis, and will therefore bear some resemblance.}
+
+As we now have discussed some priors on the latent field, the next natural step is to discuss the hyperpriors placed on the parameters of the latent field. Our latent field is a GMRF, i.e., a zero-mean multivariate Gaussian with a temporal dependency structure encoded into the precision matrix. As a consequence, the only parameters to assign hyperpriors to are the variance/precision parameters. For models such as the Bayesian MAPC model, it has long been standard practice to assign each individual effect their own prior distribution on their variance/precision parameter. Therefore, these priors are commonly referred to as component-specific priors. In the Bayesian MAPC model, the precision parameters in question are for the age, period, and cohort effects, along with the unstructured effect. Simultaneous assignment of priors to these parameters makes their interpretation for the marginal variance difficult \citep{wakefield2006}. Ideally, these priors should be carefully chosen to suit the application at hand and incorporate any prior knowledge or lack thereof. In a lot of literature, the priors are chosen based on what proved suitable in other literature, and may therefore be inappropriate for the application at hand \citep{PC-priors}. It is also typical to rely on the default or recommended hyperpriors for the model implementations in software. For the RW1 model in \texttt{INLA}, the default prior for the log-precision of the model components are loggamma$(1, 5\mathrm{e}{-4})$, while in \texttt{WinBUGS} the reference manual commonly recommends a gamma$(\varepsilon, \varepsilon)$ with small $\varepsilon$ for the precision parameters. This is also unfortunate, as this facilitates non-subjective choices of priors. The specification of priors for a particular problem is tricky, and several considerations have to be made in order to ensure sensible results. If non-informative priors are chosen, the placement of priors on multiple parameters at once cause concern for the stability of inference, particularly for models that are over-parameterized or too flexible, resulting in over-fitting in the posteriors. Moreover, if the chosen prior is too informative, then the model may end up respecting the prior information too much, resulting in posteriors that are not affected by provided evidence in the data. Since it is difficult to make thoroughly justified considerations on the prior specifications on a model, there is need to specify weakly informative priors, that aim to not influence inference too much.
+
+A class of priors that seek to remedy these concerns is the class of penalized complexity (PC) priors as introduced by \cite{PC-priors}. These priors penalize the deviation from a "base" model specified in terms of specific parameter values, and regularize on the natural scale of the parameter, done by assigning sufficient mass to the "base" model to achieve a minimally-informative prior. In short, this is achieved by placing an exponential prior distribution on a function of the Kullback-Leibler divergence measuring the distance between the "base" model and alternative models. The rate of this exponential prior is then selected by the user by controlling the prior mass in the tail. If the "base" model can be justified as reasonable when no evidence has been provided, then these priors provide a more sensible prior that is both robust to over-fitting and respects the model structure.
+
+\subsubsection{Joint priors}
+\label{section:joint_priors}
+\textit{Note that parts of this section is based on my discussion on joint and component specific priors in my project work \citep{Prosjektoppgave} leading up to this thesis, and will therefore bear some resemblance.}
+
+A major advantage of PC-priors is that they are invariant to reparameterizations, meaning they are easily applicable to a variety of models, particularly to models reparameterized to use mixing parameters. Model reparameterizations featuring mixing parameters typically let the total variance of the linear predictor follow some parameterized distribution, and make use of mixing parameters to distribute the total variance to the random effects. For the total standard deviation, priors such as the half-normal prior have been suggested \citep{gelmanHN}, though PC priors may also be used. An added benefit of PC priors is that they may be placed on both the total variance and the mixing parameters. See \cite{Jointprior} for more details, and our practical implementation in Section \ref{section:application1:priorspecification}. In a model with two random effects, only one mixing parameter is required to split the total variance to the components. If the "base" model corresponds to the mixing parameter being $0$ or $1$, the user only needs to choose the prior mass in the tail. If the desired "base" model is a combination of two effects, then the desired median of the mixing parameter must be specified along with a concentration on a logit scale that corresponds to how strong the belief in the "base" model is. 
+
+One major reason for reparameterizating models is to facilitate simpler prior assignment. While the prior placed on the total variance may be component-specific in the sense that it is a univariate distribution, the mixing parameters follow a joint distribution, and are therefore referred to as joint priors. While these joint priors help with the comparability and interpretability with the models, the problems that follow from using non-informative priors still remain. 
+
+In our Bayesian MAPC model, a single prior will be placed on the total variance, and a joint prior will be placed on the mixing parameter. The joint prior will be specified using the hierarchical decomposition (HD) prior framework \citep{Jointprior}, allowing us to intuitively distribute the total variance to the effects by visualizing the distribution process as a tree. An additional benefit of using this framework is that since the visualization of the prior is intuitive, cooperation with experts in the field of research becomes simpler. Though experts might not be familiar with the mathematical details of the model, the visualization may help them formulate their expert knowledge, aiding the prior elicitation process. This is particularly helpful when coupled with PC priors, as we may then formulate the "base" model using the various splits along the tree. Additionally, by the use of PC priors, we may avoid overfitting to the structured random effects by defining the first split of the tree to separate the structured from the unstructured random effects, and then induce shrinkage to the unstructured random effect. 
+
+\subsection{Approximate Bayesian inference using INLA}
+\label{section:INLA}
+\textit{Note that parts of this section is based on my discussion on INLA in my project work \citep{Prosjektoppgave} leading up to this thesis, and will therefore bear some resemblance.}
+
+The integrated nested Laplace approximations (INLA) approach \citep{Original-INLA} provides a way to perform approximate Bayesian inference in latent Gaussian models. The most versatile way of doing Bayesian inference is by Markov chain Monte Carlo (MCMC) methods, though there are many drawbacks to this method, such as relying on stochasticity, dealing with dependent samples, and convergence of a Markov chain. INLA resolves these issues by doing approximate inference, giving a deterministic result, but can only do so for a class of models, which is the class of latent Gaussian models. An important distinction in the results is that INLA can provide inference on the posterior marginals, but not the joint posterior. Though these are limitations, the class of latent Gaussian models encompasses a large variety of models. In many cases, even if the linear predictor is not Gaussian as required, it may be approximately Gaussian, which would still work.
+
+In \texttt{R}, this framework is implemented in the package \texttt{INLA}, available from \href{www.r-inla.org}{www.r-inla.org}. This package does not use the original formulation of INLA as in \cite{Original-INLA}, but by default uses the novel variational Bayes implementation of INLA as described in \cite{vanniekerk2023lowrank}. The computational scheme in the original formulation is provided concisely in \citep{Prosjektoppgave} and by \cite{R-INLA}.
+
+
+
+

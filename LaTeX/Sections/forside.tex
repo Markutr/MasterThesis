@@ -1,0 +1,42 @@
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+    } %sets new page command to insert an empty page without adding to the page counter or having a page number
+
+\begin{titlepage}
+    \newgeometry{left=1.6in, right=2in}
+    \begin{figure}[h]
+        \includegraphics[width=\textwidth]{Figures/NTNU-Bred.pdf}
+    \end{figure}
+    \vspace*{1.5cm}
+    
+    \noindent \textbf{\LARGE Education-specific differences in time trends of age-stratified back pain data of US adults from 1997 to 2018} \\
+
+    \vspace*{-0.4cm}
+    \noindent {\large A multivariate age-period-cohort analysis} \\
+    \vspace{0.5cm}
+
+    \noindent  \textcolor{gray}{\Large Markus Trætli} \\
+    \vspace{0.5cm}
+    
+    
+    \vspace{1.5cm}%For a4: 7cm, For b5:3.5-3.7 
+    \noindent Master's thesis in Mathematics \\
+    Supervisor: Andrea Riebler \\
+    Co-supervisor: Ingeborg Hem Sørmoen \\
+    Submission date: June 2024 \\
+    
+    \vspace{0.2cm}
+    \noindent Norwegian University of Science and Technology \\
+    Faculty of Information Technology and Electrical Engineering \\
+    Department of Mathematical Sciences \\
+\end{titlepage}
+\restoregeometry
+\myemptypage %empty page such that the abstract starts at the first right hand side after the title page
+%\end{comment}
+
+% Local Variables:
+% TeX-master: "master"
+% End:
