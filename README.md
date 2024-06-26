@@ -19,7 +19,7 @@ Since the priors used here takes a long time to generate (4-6 hours for each var
 ## Getting Started
 
 1. Clone this repository: `git clone https://github.com/Markutr/MasterThesis.git`
-2. Install the required R packages (check the imported packages in the provided guide "guide.qmd"): `install.packages(c("makemymrior", ...))`
+2. Install the required R packages (check the imported packages in the provided guide "guide.qmd"): `install.packages(c("makemyprior", ...))`
 
 For a guide on how to use the code to specify age-period-cohort models using a user specified combination of shared and education-specific effects, see "guide.qmd".
 
