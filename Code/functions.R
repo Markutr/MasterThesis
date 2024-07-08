@@ -20,6 +20,7 @@ time_diff <- function(start_time, end_time){
   diff_m = round((floor(as.double(difftime(end_time, start_time, units = "mins")))/60 - diff_h)*60)
   diff_s =  round((floor(as.double(difftime(end_time, start_time, units = "secs")))/(60) - diff_m - 60*diff_h)*60)
   return(paste(diff_h,":",diff_m,":",diff_s, sep =""))
+  
 }
 
 diff_format_to_sec <- function(format){
@@ -417,9 +418,10 @@ pick_prior_func <- function(apc_format){
 #Fits the APC model for the given format using the given data with the given y_name
 inlaAPC <- function(apc_format, data, y_name, I = 60, J = 22, K = 81, family = "binomial", do_scale = F, trim = T, ...){
   
-  inla_compute_params = control.compute = list(config = TRUE, dic = TRUE, cpo = TRUE, waic = TRUE)
+  inla_compute_params = control.compute = list(config = TRUE, dic = TRUE, cpo = TRUE, waic = TRUE, return.marginals.predictor=TRUE)
   inla_params = list(int.strategy = "ccd", lincomb.derived.correlation.matrix = TRUE, strategy = "simplified.laplace")
-  
+  control.predictor = list(compute=T)
+
   res = makePriorAPC(data, y_name, apc_format = apc_format, ...)
   res$data = make_eval_prior_data(res$prior)
   lincombs_acq = get_lincombs(apc_format, I, J, K)
@@ -438,6 +440,7 @@ inlaAPC <- function(apc_format, data, y_name, I = 60, J = 22, K = 81, family = "
                      control.family = fam_ctrl,
                      scale = scale,
                      lincomb = lincombs_acq,
+                     control.predictor = control.predictor,
                      control.expert = list(jp = inla.jp.define(
                        prior_func, prior_data = res$data,
                        eval_joint_prior = makemyprior::eval_joint_prior,
@@ -458,6 +461,7 @@ inlaAPC <- function(apc_format, data, y_name, I = 60, J = 22, K = 81, family = "
                    control.inla = inla_params,
                    control.compute = inla_compute_params,
                    lincomb = lincombs_acq,
+                   control.predictor = control.predictor,
                    control.expert = list(jp = inla.jp.define(
                      prior_func, prior_data = res$data,
                      eval_joint_prior = makemyprior::eval_joint_prior,
